@@ -2,7 +2,7 @@
 #define SOCOTRA_OUVRIER_H
 
 #include "struct.h"
-#include "Chantier.h"
+#include "chantier.h"
 
 //Ajout d'ouvrier
 void AjoutOuvrier(IndexOuvrier *list);

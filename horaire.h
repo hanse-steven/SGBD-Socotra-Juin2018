@@ -2,8 +2,8 @@
 #define SOCOTRA_HORAIRE_H
 
 #include "struct.h"
-#include "Chantier.h"
-#include "Ouvrier.h"
+#include "chantier.h"
+#include "ouvrier.h"
 
 void ajoutHoraire(IndexChantier *listChantier,IndexOuvrier *listOuvrier);
 void ecrirePartieFichiers(EstOccupe *tab);
