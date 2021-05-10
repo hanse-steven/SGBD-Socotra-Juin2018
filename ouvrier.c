@@ -71,7 +71,7 @@ void AjoutOuvrier(IndexOuvrier list[MAXOUVRIER])//Incomplet, manque saisie date
                 printf("Date de naissance:");
                 LireChaine(pch,MAXDATE);
                 if(!LireDate(&date, pch) || !ValideDate(&date)
-                   ||!(date.annee < 2000 ||(date.annee==2000 &&(date.mois<05||(date.mois==05 && date.jour<=21)))))
+                   ||!(date.annee < 2003 ||(date.annee==2003 &&(date.mois<05||(date.mois==05 && date.jour<=10)))))
                 {
                     vali = 0;
                     printf("Veuillez encoder une date valide\n");
